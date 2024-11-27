@@ -39,11 +39,7 @@ A robust MERN stack application that implements user authentication with feature
    JWT_SECRET= 
    ```
 
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
+4. Replace deployment URL in auth.route.js 
 
 5. For production build:
 
