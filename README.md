@@ -1,4 +1,4 @@
-# MERN Stack Authentication App
+# XpressAuth: MERN Authentication App
 
 A robust MERN stack application that implements user authentication with features like password reset, email verification, and email notifications. This project showcases secure and scalable authentication practices.
 
@@ -56,6 +56,8 @@ A robust MERN stack application that implements user authentication with feature
 
 https://xpressauth.vercel.app/
 
-## 📬 Contact
+---
+
+## Contact
 
 For any questions, please contact me at varad.manegopale28@gmail.com or open an issue on GitHub.
