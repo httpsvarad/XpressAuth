@@ -52,11 +52,6 @@ A robust MERN stack application that implements user authentication with feature
    npm start
    ```
 
-## 📦 Live Link
-
-https://xpressauth.vercel.app/
-
-
 ## Contact
 
 For any questions, please contact me at varad.manegopale28@gmail.com or open an issue on GitHub.
