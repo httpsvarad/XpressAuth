@@ -38,9 +38,9 @@ A robust MERN stack application that implements user authentication with feature
    MONGO_URI= 
    JWT_SECRET= 
    ```
-
-4. Replace deployment URL in auth.route.js 
-
+   
+4. Update deployement URL in backend/APIs
+   
 5. For production build:
 
    ```bash
