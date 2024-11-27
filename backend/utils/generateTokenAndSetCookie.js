@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const generateTokenAndSetCookie = (res, userId) => {
-    const token = jwt.sign({ userId }, process.env.JWT_SECRET, {
+    const token = jwt.sign({ userId }, 'xpressauthsecret', {
         expiresIn: "7d",
     });
 
