@@ -35,8 +35,8 @@ A robust MERN stack application that implements user authentication with feature
 3. Create a `.env` file in the root of your project and add the following environment variables:
 
    ```env
-   MONGO_URI=
-   JWT_SECRET=
+   MONGO_URI= 
+   JWT_SECRET= 
    ```
 
 4. Start the development server:
