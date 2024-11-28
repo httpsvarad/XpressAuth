@@ -54,23 +54,23 @@ Create your account at https://xpressauth-c83s.onrender.com/ and get started.
 
 ## 🖼️ Screenshots
 
-Sign-In Page
+Sign-In Page :-
 
 ![Screenshot 6](./screenshots/Screenshot%20(6).png)
 
-Sign-Up Page
+Sign-Up Page :-
 
 ![Screenshot 8](./screenshots/Screenshot%20(8).png)
 
-Email Verification Page
+Email Verification Page :-
 
 ![Screenshot 9](./screenshots/Screenshot%20(9).png)
 
-Welcome Page
+Welcome Page :-
 
 ![Screenshot 10](./screenshots/Screenshot%20(10).png)
 
-Email Notifications
+Email Notifications :-
 
 ![Screenshot 4](./screenshots/Screenshot%20(4).png)
 
