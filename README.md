@@ -48,9 +48,26 @@ A robust MERN stack application that implements user authentication with feature
    npm start
    ```
 
-## Live Link 
+## 💻 Live Link 
 
-https://xpressauth-c83s.onrender.com/
+Create your account at https://xpressauth-c83s.onrender.com/ and get started.
+
+## 🖼️ Screenshots
+
+### Sign-In Page
+![Screenshot 6](./screenshots/Screenshot-6.png)
+
+### Sign-Up Page
+![Screenshot 8](./screenshots/Screenshot-8.png)
+
+### Email Verification Page
+![Screenshot 9](./screenshots/Screenshot-9.png)
+
+### Welcome Page
+![Screenshot 10](./screenshots/Screenshot-10.png)
+
+
+![Screenshot 4](./screenshots/Screenshot-4.png)
 
 ## ✉️ Contact
 
