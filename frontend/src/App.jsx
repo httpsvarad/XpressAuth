@@ -15,13 +15,12 @@ import ResetPasswordPage from './pages/ResetPasswordPage';
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated, user } = useauthStore();
 
-  if (!user.isVerified) {
-    return <Navigate to='/verify-email' replace />;
-  }
-
-
   if (!isAuthenticated) {
     return <Navigate to='/signin' replace />;
+  }
+
+   if (!user.isVerified) {
+    return <Navigate to='/verify-email' replace />;
   }
 
 
