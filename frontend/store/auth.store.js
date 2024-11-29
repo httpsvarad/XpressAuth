@@ -13,7 +13,7 @@ const useauthStore = create((set) => ({
     signup: async (email, password, name) => {
         set({ isLoading: true, error: null });
         try {
-            const response = await axios.post("/user/auth/signup", { email, password, name });
+            const response = await axios.post("https://xpressbackend.vercel.app/user/auth/signup", { email, password, name });
             set({ user: response.data.user, isAuthenticated: true, isLoading: false });
 
         } catch (error) {
@@ -25,7 +25,7 @@ const useauthStore = create((set) => ({
     verifyEmail: async (code) => {
         set({ isLoading: true, error: null });
         try {
-            const response = await axios.post("/user/auth/verifyemail", { code });
+            const response = await axios.post("https://xpressbackend.vercel.app/user/auth/verifyemail", { code });
             set({ isLoading: false, user: response.data.user, isAuthenticated: true });
             return response.data
         } catch (error) {
@@ -37,7 +37,7 @@ const useauthStore = create((set) => ({
     signin: async (email, password) => {
         set({ isLoading: true, error: null });
         try {
-            const response = await axios.post("/user/auth/signin", { email, password });
+            const response = await axios.post("https://xpressbackend.vercel.app/user/auth/signin", { email, password });
             set({ isLoading: false, user: response.data.user, isAuthenticated: true });
         } catch (error) {
             set({ error: error.response.data.message || "Error, Try Again", isLoading: false });
@@ -50,7 +50,7 @@ const useauthStore = create((set) => ({
     signout: async () => {
         set({ isLoading: true, error: null });
         try {
-            const response = await axios.post("/user/auth/signout");
+            const response = await axios.post("https://xpressbackend.vercel.app/user/auth/signout");
             set({ isLoading: false, user: null, isAuthenticated: false });
         } catch (error) {
             console.log(error.message);
@@ -63,7 +63,7 @@ const useauthStore = create((set) => ({
     checkAuth: async () => {
         set({ isCheckingAuth: true, error: null });
         try {
-            const response = await axios.get("/user/auth/check-auth")
+            const response = await axios.get("https://xpressbackend.vercel.app/user/auth/check-auth")
             set({ user: response.data.user, isAuthenticated: true, isCheckingAuth: false });
         } catch (error) {
             set({ error: null, isCheckingAuth: false })
@@ -73,7 +73,7 @@ const useauthStore = create((set) => ({
     forgotPassword: async (email) => {
         set({ isLoading: true, error: null });
         try {
-            const response = await axios.post("/user/auth/forgot-password", { email });
+            const response = await axios.post("https://xpressbackend.vercel.app/user/auth/forgot-password", { email });
             set({ isLoading: false });
         } catch (error) {
             set({ isLoading: false });
@@ -86,7 +86,7 @@ const useauthStore = create((set) => ({
         set({ isLoading: true, error: null })
         try {
 
-            const response = await axios.post(`/user/auth/reset-password/${token}`, { password });
+            const response = await axios.post(`https://xpressbackend.vercel.app/user/auth/reset-password/${token}`, { password });
             set({ isLoading: false, })
 
         } catch (error) {
