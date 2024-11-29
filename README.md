@@ -1,4 +1,4 @@
-# XpressAuth: MERN Authentication App
+# 🔓 XpressAuth: MERN Authentication App 
 
 A robust MERN stack application that implements user authentication with features like password reset, email verification, and email notifications. This project showcases secure and scalable authentication practices. 
 
