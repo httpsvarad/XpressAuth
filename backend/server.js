@@ -25,9 +25,6 @@ app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "../frontend/dist/index.html"));
 });
 
-app.get('/', (req, res)=>{
-    res.send('Server Is Running')
-})
 
 app.listen(3000, () => {
     connectDB();

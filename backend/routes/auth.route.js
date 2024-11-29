@@ -186,7 +186,7 @@ router.post('/forgot-password', async (req, res) => {
 
         await user.save();
 
-        await sendPasswordResetEmail(user.email, `https://xpressauth.vercel.app/reset-password/${resetToken}`);
+        await sendPasswordResetEmail(user.email, `https://xpressauth-c83s.onrender.com/reset-password/${resetToken}`);
 
         res.status(200).json({ success: true, message: 'Password reset link sent successfully' });
     } catch (error) {
