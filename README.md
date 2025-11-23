@@ -48,6 +48,10 @@ A robust MERN stack application that implements user authentication with feature
    npm start
    ```
 
+## ⚙️ Workflow
+
+![Workflow](./screenshots/workflow.jpg)
+   
 ## 🖼️ Screenshots
 
 Sign-In Page :-
